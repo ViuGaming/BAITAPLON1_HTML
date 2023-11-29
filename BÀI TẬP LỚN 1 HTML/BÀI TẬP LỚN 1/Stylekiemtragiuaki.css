@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(200, 197, 197);
+}
+.grup-logo{
+    margin-left: 90px;
+    margin-top: 40px;
+}
+.grup-logo h3:hover{
+    color: #ff0000;
+}
+.grup-logo h3{
+    margin: 15px;
+    color: gray;
+}
+.img-item img{
+    margin: 0 5px;
+    margin-left: 10px;
+}
+.gruop-footer{
+    margin-top: 40px;
+}
+.gruop-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: #ffff;
+    border-radius: 7px;
+    width: 1540px;
+    height: 240px;
+}
+.item-1{
+    display: flex;
+    flex-direction: row;
+    margin: 0 20px;
+}
+.item-1 ul li {
+    list-style: none;
+    margin: 10px 40px;
+    color: gray;
+    transition: all 0.5s none;
+}
+.item-1 ul li:hover{
+    color: #ff0000;
+}
+.item-1 ul h3:hover{
+    color: #23a56b;
+}
+.item-1 ul h3{
+    margin-left: 40px;
+}
